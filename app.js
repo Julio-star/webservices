@@ -1,6 +1,6 @@
 //Service worker PART
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/websitewithapi/sw.js').then(function(reg) {
+    navigator.serviceWorker.register('/webservices/sw.js').then(function(reg) {
       // registration worked
       console.log('Registration succeeded. Scope is ' + reg.scope);
     }).catch(function(error) {

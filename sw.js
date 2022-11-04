@@ -2,10 +2,10 @@ this.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open('v1').then(function(cache) {
         return cache.addAll([
-          '/websitewithapi/',
-          '/websitewithapi/index.html',
-          '/websitewithapi/style.css',
-          '/websitewithapi/app.js',
+          '/webservices/',
+          '/webservices/index.html',
+          '/webservices/style.css',
+          '/webservices/app.js',
         ]);
       })
     );
