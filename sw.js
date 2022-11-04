@@ -9,10 +9,12 @@ this.addEventListener('install', function(event) {
         ]);
       })
     );
+    console.log("cache open : success");
 });
 
 this.addEventListener('fetch', function(event) {
     event.respondWith(
       caches.match(event.request)
     );
+    console.log("respond With : success");
   });
