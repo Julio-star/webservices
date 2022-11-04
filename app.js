@@ -1,4 +1,16 @@
-// api url
+//Service worker PART
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/websitewithapi/sw.js').then(function(reg) {
+      // registration worked
+      console.log('Registration succeeded. Scope is ' + reg.scope);
+    }).catch(function(error) {
+      // registration failed
+      console.log('Registration failed with ' + error);
+    });
+};
+
+
+//API PART
 const api_url ="https://api.themoviedb.org/3/search/movie?api_key=0f8c5cd40e76340bfd29fc59b6a3e5a8&query=";
 
 const imgPATH = "https://image.tmdb.org/t/p/w1280";
