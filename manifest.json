@@ -1,6 +1,6 @@
 {
-    "name": "What Watch 2022",
-    "start_url": "./?utm_source=index.html",
+    "name": "What Watch.com",
+    "start_url": "https://julio-star.github.io/webservices/index.html",
     "background_color": "black",
     "description": "L'application qui vous aide à trouver VOTRE film !",
     "dir": "ltr",
