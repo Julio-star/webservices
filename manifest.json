@@ -1,6 +1,7 @@
 {
     "short_name":"WaWat",
     "name": "What Watch.com",
+    "icons":[{}],
     "start_url": "https://julio-star.github.io/webservices/index.html",
     "background_color": "black",
     "description": "L'application qui vous aide à trouver VOTRE film !",
