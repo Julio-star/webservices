@@ -1,0 +1,9 @@
+{
+    "name": "What Watch 2017",
+    "start_url": "./?utm_source=index.html",
+    "background_color": "black",
+    "description": "L'application qui vous aide à trouver la meilleure nourriture en ville !",
+    "dir": "ltr",
+    "lang": "fr",
+    "display": "standalone"
+}
